@@ -8,39 +8,38 @@
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-    crossorigin="anonymous"></script>
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
+  </script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-    crossorigin="anonymous"></script>
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
+  </script>
   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-    crossorigin="anonymous"></script>
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous">
+  </script>
   <!-- EXTRA STYLE -->
   <style>
-    /* #aboutmepara {
-           clear: right;
-       } */
     body {
-      background-color: rgb(213, 246, 247);
-      margin: auto;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .navbar-brand {
+      background-color: cadetblue;
+    }
+
+    button {
+      flex-basis: 100%;
+
+    }
+
+    .mynavlist {
+      justify-content: flex-end;
+      flex-direction: row;
     }
 
     .biopic {
       float: left;
       padding-right: 30px;
       padding-bottom: 30px;
-    }
-
-    .mycontainer {
-      background-color: rgb(253, 255, 158);
-    }
-
-
-    footer {
-      background-color: palevioletred;
-      position: sticky;
-      bottom: 0;
     }
   </style>
 
@@ -50,80 +49,77 @@
 
   <!-- NAVBAR -->
   <div class="container">
+    <div class="row-lg">
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="index.html">Emily's Page</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse mynavlist" id="navbarNav">
+          <ul class="navbar-nav mynavlist">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="practice.html">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </div>
+
+
+  <!-- BODY START -->
+  <div class="container mycontainer">
     <div class="row">
-      <div class="col-sm">
-        <!-- One of three columns -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item active">
-                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-              </li>
-            </ul>
-          </div>
-        </nav>
+      <div class="col">
+        <h1>About Emily</h1>
+        <hr>
       </div>
-      
+
     </div>
-  </div>
-
-
-    <!-- BODY START -->
-    <div class="container mycontainer">
-      <div class="row">
-        <div class="col">
-          <h1>About Emily</h1>
-          <hr>
-        </div>
-
-      </div>
-      <div class="row">
-        <div class="col">
-          <img class="biopic" src="images/Screen Shot 2020-03-23 at 6.26.28 PM.png" height=300px>
-          <p> Hey there. My name is Emily and I'm an aspiring web developer. I earned my Bachelor's Degree in 2017 for
-            Animation and Illustration from DePaul University.
-            In the fall of 2019, I decided to return to school to pursue a Master's Degree in Human-Computer
-            interaction. After taking a few intro coding
-            courses for the degree, I found that I truly enjoyed coding more than anything I had done before in school.
-            I have put my degree on pause (hopefully forever!)
-            to take the coding bootcamp course that Northwestern offers to up my employment game and jumpstart a career
-            in development. <br>
-            I have had the opportunity to live abroad twice with my family and travel a good chunk of the globe with
-            them (and through some study-abroad programs).
-            My favorite place I have travelled to so far would have to be Tokyo, Japan or South Africa. Thanks to my
-            mom's side of the family, I am also fluent in French. <br>
-            In my free time, I like to draw digitally, watch The Office (for the hundredth time), listen to music, brew
-            beer with my dad, drink beer with my dad, and cook new recipes I find on the internet. <br>
-            Thank you for stopping by my website. Check out my portfolio, and click on "Contact" to connect with me!
-          </p>
-        </div>
-        <!-- <div class="col">
-
-        </div> -->
-
+    <div class="row">
+      <div class="col">
+        <img class="biopic" src="images/Screen Shot 2020-03-23 at 6.26.28 PM.png" height=300px>
+        <p> Hey there. My name is Emily and I'm an aspiring web developer. I earned my Bachelor's Degree in 2017 for
+          Animation and Illustration from DePaul University.
+          In the fall of 2019, I decided to return to school to pursue a Master's Degree in Human-Computer
+          interaction. After taking a few intro coding
+          courses for the degree, I found that I truly enjoyed coding more than anything I had done before in school.
+          I have put my degree on pause (hopefully forever!)
+          to take the coding bootcamp course that Northwestern offers to up my employment game and jumpstart a career
+          in development. <br>
+          I have had the opportunity to live abroad twice with my family and travel a good chunk of the globe with
+          them (and through some study-abroad programs).
+          My favorite place I have travelled to so far would have to be Tokyo, Japan or South Africa. Thanks to my
+          mom's side of the family, I am also fluent in French. <br>
+          In my free time, I like to draw digitally, watch The Office (for the hundredth time), listen to music, brew
+          beer with my dad, drink beer with my dad, and cook new recipes I find on the internet. <br>
+          Thank you for stopping by my website. Check out my portfolio, and click on "Contact" to connect with me!
+        </p>
       </div>
 
     </div>
 
   </div>
+
+
   <!-- FOOTER  -->
 
-  <footer class="footer-copyright text-center py-3">© 2020 Copyright:
-    <a href="https://bootcamp.northwestern.edu/"> Northwestern.edu</a>
-  </footer>
+  <div class="container">
+    <div class="row myfooterrow">
+      <div class="col-sm-12">
+        <footer class="footer-copyright text-center py-3">© 2020 Copyright:
+          <a href="https://bootcamp.northwestern.edu/"> Northwestern.edu</a>
+        </footer>
+      </div>
+    </div>
+  </div>
 
 
 </body>
