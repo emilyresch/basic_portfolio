@@ -1,101 +1,122 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Me</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <!-- EXTRA STYLE -->
- <style>
-       /* #aboutmepara {
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Me</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+    integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+  <!-- EXTRA STYLE -->
+  <style>
+    /* #aboutmepara {
            clear: right;
        } */
-       body {
-           background-color: rgb(213, 246, 247);
-           
-       }
+    body {
+      background-color: rgb(213, 246, 247);
 
-       img {
-           float: left;
-           padding-right: 30px;
-           padding-bottom: 30px;
-       }
+    }
 
-       .mycontainer {
-           background-color: rgb(253, 255, 158);
-       }
-       
-       .navbar-brand {
-           background-color: palevioletred;
-           padding: 10px;
-       }
- </style>
+    .biopic {
+      float: left;
+      padding-right: 30px;
+      padding-bottom: 30px;
+    }
+
+    .mycontainer {
+      background-color: rgb(253, 255, 158);
+    }
+
+    .navbar-brand {
+      background-color: palevioletred;
+      padding: 10px;
+    }
+  </style>
 
 </head>
+
 <body>
 
-<!-- NAVBAR -->
-<div class="container">
-<nav class="navbar navbar-expand-lg navbar-light bg-light mynavbar">
-    <a class="navbar-brand" href="index.html">About Me</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarNav">
-      <ul class="navbar-nav">
-        <li class="nav-item active">
-          <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-        <!-- <li class="nav-item">
+  <!-- NAVBAR -->
+  <div class="container">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light mynavbar">
+      <a class="navbar-brand" href="index.html">About Me</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html">About Me<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="portfolio.html">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="contact.html">Contact</a>
+          </li>
+          <!-- <li class="nav-item">
           <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
         </li> -->
-      </ul>
-    </div>
-  </nav>
-
-
-<!-- GRID START - there are 2 rows (not including Navbar) first row has 1 column, second row has 2 columns, photo and text. -->
-
-<div class="container mycontainer">
-    <div class="row">
-       <div class="col"> 
-        <h1>About Emily</h1>
-        <hr>
+        </ul>
       </div>
-      
-    </div> 
-    <div class="row">
-      <div class="col">
-        <img src="images/Screen Shot 2020-03-23 at 6.26.28 PM.png" height=300px>
-        <p> Hey there. My name is Emily and I'm an aspiring web developer. I earned my Bachelor's Degree in 2017 for Animation and Illustration from DePaul University. 
-            In the fall of 2019, I decided to return to school to pursue a Master's Degree in Human-Computer interaction. After taking a few intro coding 
-            courses for the degree, I found that I truly enjoyed coding more than anything I had done before in school. I have put my degree on pause (hopefully forever!)
-            to take the coding bootcamp course that Northwestern offers to up my employment game and jumpstart a career in development. <br>
-            I have had the opportunity to live abroad twice with my family and travel a good chunk of the globe with them (and through some study-abroad programs). 
-            My favorite place I have travelled to so far would have to be Tokyo, Japan or South Africa.  Thanks to my mom's side of the family, I am also fluent in French. <br>
-            In my free time, I like to draw digitally, watch The Office (for the hundredth time), listen to music, brew beer with my dad, drink beer with my dad, and cook new recipes I find on the internet. <br>
+    </nav>
+
+
+    <!-- GRID START - there are 2 rows (not including Navbar) first row has 1 column, second row has 2 columns, photo and text. -->
+
+    <div class="container mycontainer">
+      <div class="row">
+        <div class="col">
+          <h1>About Emily</h1>
+          <hr>
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="col">
+          <img class="biopic" src="images/Screen Shot 2020-03-23 at 6.26.28 PM.png" height=300px>
+          <p> Hey there. My name is Emily and I'm an aspiring web developer. I earned my Bachelor's Degree in 2017 for
+            Animation and Illustration from DePaul University.
+            In the fall of 2019, I decided to return to school to pursue a Master's Degree in Human-Computer
+            interaction. After taking a few intro coding
+            courses for the degree, I found that I truly enjoyed coding more than anything I had done before in school.
+            I have put my degree on pause (hopefully forever!)
+            to take the coding bootcamp course that Northwestern offers to up my employment game and jumpstart a career
+            in development. <br>
+            I have had the opportunity to live abroad twice with my family and travel a good chunk of the globe with
+            them (and through some study-abroad programs).
+            My favorite place I have travelled to so far would have to be Tokyo, Japan or South Africa. Thanks to my
+            mom's side of the family, I am also fluent in French. <br>
+            In my free time, I like to draw digitally, watch The Office (for the hundredth time), listen to music, brew
+            beer with my dad, drink beer with my dad, and cook new recipes I find on the internet. <br>
             Thank you for stopping by my website. Check out my portfolio, and click on "Contact" to connect with me!
-        </p>
+          </p>
+        </div>
+        <div class="col">
+
+        </div>
+
       </div>
-    
+
     </div>
-    
+
+    <!-- FOOTER  -->
+
+
+
   </div>
 
-<!-- FOOTER  -->
-
-
-
-</div>
-    
 </body>
+
 </html>
