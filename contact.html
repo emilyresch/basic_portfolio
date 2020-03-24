@@ -24,7 +24,7 @@
       margin-right: 2em;
     }
 
-    
+
 
     .mynavlist {
       justify-content: flex-end;
@@ -73,27 +73,34 @@
 
     <!-- START FORM -->
     <form>
-
-      <div class="form-group">
-        <label for="exampleInputPassword1">Name</label>
-        <input type="text" class="form-control">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-9">
+        <div class="form-group">
+          <label for="exampleInputPassword1">Name</label>
+          <input type="text" class="form-control">
+        </div>
       </div>
-      <div class="form-group">
-        <label for="exampleInputEmail1">Email address</label>
-        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-        <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+      <div class="row">
+        <div class="col-sm-9">
+        <div class="form-group">
+          <label for="exampleInputEmail1">Email address</label>
+          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+        </div>
       </div>
-      <div class="form-group input-group-lg">
-        <label for="formGroupExampleInput">Message</label>
-        <textarea class="form-control" rows="5" id="comment" placeholder="Say hi..."></textarea>
-        <!-- <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Say hi..."> -->
       </div>
-      <!-- <div class="form-group form-check">
-      <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
-    </div> -->
-      <button type="submit" class="btn btn-primary">Submit</button>
+      <div class="row">
+        <div class="col-sm-9">
+        <div class="form-group input-group-lg">
+          <label for="formGroupExampleInput">Message</label>
+          <textarea class="form-control" rows="5" id="comment" placeholder="Say hi..."></textarea>
+        </div>
+      </div>
+      </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
     </form>
+  </div>
   </div>
   <!-- FOOTER  -->
   <footer class="footer-copyright text-center py-3">© 2020 Copyright:
