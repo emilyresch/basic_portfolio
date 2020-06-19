@@ -1,4 +1,4 @@
-# basic_portfolio
+# Basic HTML Portfolio by emilyresch
 
 For this assignment, I created a portfolio, contact, and index.html.
 I also created an images folder to hold my pictures (for bio and portfolio)
